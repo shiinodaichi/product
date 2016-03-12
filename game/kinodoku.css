@@ -1,0 +1,45 @@
+body{
+	background-color: black;
+	color: white;
+	
+}
+
+.monolog{
+	margin: 450px auto;
+	border:solid 4px white;
+	border-radius: 5px;
+	vertical-align: bottom;
+	width:800px;
+	height: 110px;
+}
+.blinking {
+    -webkit-animation: 0.3s linear 0s alternate none infinite running blink;
+    -moz-animation: 0.5s linear 0s alternate none infinite running blink;
+    animation: 0.5s linear 0s alternate none infinite running blink;
+}
+@-webkit-keyframes blink {
+    0% { opacity: 0; }
+    19.9% { opacity: 0; }
+    20% { opacity: 1; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 0; }
+    19.9% { opacity: 0; }
+    20% { opacity: 1; }
+    100% { opacity: 1; }
+}
+@keyframes blink {
+    0% { opacity: 0; }
+    19.9% { opacity: 0; }
+    20% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+
+
+p{
+	text-align: center;
+position: relative;
+bottom: 10px;
+}
